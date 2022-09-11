@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1m;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-image: url(assets/bacground.png);
+}
+
+#cabecalho{
+    background-color: #1f7eb4;
+    padding: 15px;
+    text-align: center;
+}
+
+#cabecalho-logo, #cabecalho-menu{
+    padding: 10px;
+}
+
+#conteudo-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#conteudo-postagem{
+    width: 660px;
+    background: rgb(190, 213, 235);
+    float: left;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgb(190, 213, 235);
+}
+ /*
+#conteudo-lateral{
+    background: white;
+    width: 240px;
+    float: right;
+    padding: auto;
+}*/
+
+h1{
+    color: #000000;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #000000;
+}
+
+h3{
+    color: white;
+    background-image: url(assets/back2.png);
+    padding: 5px;
+}
+
+.branco{
+    color: #FFF;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1 px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.postagem-recente-lateral{
+    background: rgb(190, 213, 235);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #1da5c7;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#cabecalho-menu a:link, #cabecalho-menu a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#cabecalho-menu a:hover{
+    color: #1da5c7;
+    background: #FFF;
+    text-decoration: none;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
